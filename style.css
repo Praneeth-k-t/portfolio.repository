@@ -366,11 +366,87 @@
     font-size: 1.3rem;
     font-weight: 700;
     color: #2272ff;
-  }.contact p{
+  }
+  .contact .t1{
+    text-align: left;
+    margin: 23px 5%;
+    font-size: 1.3rem;
+    font-weight: 500;
+  }
+  
+  .contact p{
     text-align:left;
     padding-right: 40%;
     margin: 23px 5%;
     font-size: 1.3rem;
     font-weight: 400;
     color: #fff;
+  }
+
+  .testimonial h2{
+    justify-content: space-around;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 600;
+    color: #2272ff;
+    margin: 40px 5%;
+  }
+
+  .boxes{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0% 5%;
+  }
+  .container {
+    border: 2px solid #ccc;
+    background-color:black;
+    border-radius: 20px;
+    padding: 16px;
+    height: auto;
+    width: 40%;
+    font-size: 1.2rem;
+  }
+  
+  .container::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .container img {
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+    margin-left: 40%;
+  }
+  
+  .container h3{
+    color: #2272ff;
+  }
+  .container div {
+    font-size: 20px;
+    align-content: left;
+    margin-right: 15px;
+  }
+  
+  @media (max-width: 500px) {
+    .container {
+        text-align: center;
+    }
+    .container img {
+        margin: auto;
+        float: none;
+        display: block;
+    }
+  }
+
+  .counter{
+    margin-left: 15%;
+  }
+
+  .footers{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
   }
